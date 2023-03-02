@@ -1,0 +1,67 @@
+body{
+    background: #00E1DF;
+    margin: 0;
+}
+
+.formulaire{
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 500px;
+    background: white;
+}
+
+.formulaireLogin{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulaireTitle{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-control{
+    padding: 20px;
+    margin: 20px;
+    background: none;
+    border-bottom: 2px solid black;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+
+}
+
+.form-control::placeholder{
+    color: black;
+    opacity: 1;
+}
+
+.boutonForm{
+    padding: 20px;
+    margin: 20px;
+    background: none;
+    color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-color : black;
+}
+
+.boutonForm:hover{
+    color: white;
+    background: black;
+    border-color: white;
+}
+
+p{
+    font-size: 40px;
+}
